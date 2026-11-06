@@ -1,0 +1,6 @@
+{
+  "name": "SIPADLO - Sistem Informasi Pelayanan Administrasi Desa Lolosoni",
+  "description": "Sistem Informasi Pelayanan Administrasi Desa Lolosoni modern berbasis web dengan visualisasi 3D, alur verifikasi dan persetujuan surat berjenjang, manajemen kependudukan, arsip digital, dan asisten AI cerdas.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

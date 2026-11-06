@@ -1,0 +1,808 @@
+{
+  "villageConfig": {
+    "villageName": "Desa Lolosoni",
+    "districtName": "Kecamatan Gomo",
+    "regencyName": "Kabupaten Nias Selatan",
+    "provinceName": "Sumatera Utara",
+    "officeAddress": "Jalan Poros Desa Lolosoni, Kec. Gomo, Kab. Nias Selatan",
+    "postalCode": "22873",
+    "kadesName": "Ya'atulo Hia",
+    "kadesNip": "19780512 200801 1 003",
+    "sekdesName": "Faomakhoda Telambanua, S.AP",
+    "kaurPelayananName": "Yulianus Lase",
+    "vision": "Mewujudkan Desa Lolosoni yang Maju, Berdaya Saing, Mandiri, Berkeadilan, dan Religius Berbasis Pelayanan Publik Terpadu dan Kearifan Lokal Ono Niha.",
+    "mission": [
+      "Menyelenggarakan tata kelola pemerintahan desa yang bersih, transparan, akuntabel, dan berbasis digital.",
+      "Meningkatkan mutu pelayanan administrasi kependudukan yang cepat, mudah, dan bebas pungutan liar.",
+      "Mendorong peningkatan ekonomi masyarakat berbasis pertanian, perkebunan karet/kelapa, dan kearifan lokal.",
+      "Memelihara persatuan, keamanan, adat istiadat, dan nilai-nilai luhur budaya Nias Selatan.",
+      "Mengembangkan infrastruktur desa yang merata, berkelanjutan, dan ramah lingkungan."
+    ],
+    "history": "Desa Lolosoni merupakan salah satu desa bersejarah di wilayah Kecamatan Gomo, Kabupaten Nias Selatan, yang dikenal dengan warisan tradisi megalitikum dan persaudaraan masyarakat yang kokoh. Seiring era transformasi digital, Pemerintah Desa Lolosoni berkomitmen memodernisasi pelayanan publik demi kemudahan masyarakat desa.",
+    "residentCount": 1482,
+    "familyCount": 364,
+    "dusunList": [
+      "Dusun I Bawonahono",
+      "Dusun II Hilibadalu",
+      "Dusun III Hiligodu"
+    ],
+    "contactEmail": "pemdes@lolosoni.desa.id",
+    "contactPhone": "+62 821-6543-9870"
+  },
+  "users": [
+    {
+      "id": "usr_kades",
+      "nik": "1214081005780001",
+      "email": "kades@lolosoni.desa.id",
+      "passwordHash": "2a37a20988ea0712db1c8b00ed0d56996fb45a66a1db5054c3a2a4ba1faae926",
+      "fullName": "Ya'atulo Hia",
+      "phone": "081265001122",
+      "role": "kades",
+      "roleName": "Kepala Desa / Administrator",
+      "dusun": "Dusun I Bawonahono",
+      "rtRw": "001/001",
+      "isActive": true,
+      "createdAt": "2026-01-01T08:00:00.000Z"
+    },
+    {
+      "id": "usr_sekdes",
+      "nik": "1214081406830002",
+      "email": "sekdes@lolosoni.desa.id",
+      "passwordHash": "06c96adf11728bd9eae3c53cfacc8b4c38eaf2e75fdbd3cd697446e7b28b1ee5",
+      "fullName": "Faomakhoda Telambanua, S.AP",
+      "phone": "081375112233",
+      "role": "sekdes",
+      "roleName": "Sekretaris Desa",
+      "dusun": "Dusun II Hilibadalu",
+      "rtRw": "002/001",
+      "isActive": true,
+      "createdAt": "2026-01-02T08:00:00.000Z"
+    },
+    {
+      "id": "usr_perangkat",
+      "nik": "1214082209890003",
+      "email": "perangkat@lolosoni.desa.id",
+      "passwordHash": "37239b5af13ea179a501f74e52e117eb43a1fff3ec57d396c9147374268df6d5",
+      "fullName": "Yulianus Lase",
+      "phone": "082199887766",
+      "role": "perangkat",
+      "roleName": "Kaur Pelayanan & Umum",
+      "dusun": "Dusun I Bawonahono",
+      "rtRw": "001/002",
+      "isActive": true,
+      "createdAt": "2026-01-03T08:00:00.000Z"
+    },
+    {
+      "id": "usr_warga_1",
+      "nik": "1214081504920001",
+      "email": "warga@lolosoni.desa.id",
+      "passwordHash": "02a69fc07b49c1dbfc6948625c072858c559ef932c3285549a8c3376ddac4aa4",
+      "fullName": "Bezisokhi Hia",
+      "phone": "085277119922",
+      "role": "masyarakat",
+      "roleName": "Masyarakat Desa",
+      "dusun": "Dusun I Bawonahono",
+      "rtRw": "001/001",
+      "isActive": true,
+      "createdAt": "2026-01-10T10:00:00.000Z"
+    },
+    {
+      "id": "usr_warga_2",
+      "nik": "1214086208950002",
+      "email": "sarinah@lolosoni.desa.id",
+      "passwordHash": "02a69fc07b49c1dbfc6948625c072858c559ef932c3285549a8c3376ddac4aa4",
+      "fullName": "Sarinah Zagoto",
+      "phone": "085388223344",
+      "role": "masyarakat",
+      "roleName": "Masyarakat Desa",
+      "dusun": "Dusun II Hilibadalu",
+      "rtRw": "002/002",
+      "isActive": true,
+      "createdAt": "2026-01-12T11:00:00.000Z"
+    }
+  ],
+  "residents": [
+    {
+      "nik": "1214081504920001",
+      "noKk": "1214080101150001",
+      "fullName": "Bezisokhi Hia",
+      "gender": "L",
+      "birthPlace": "Lolosoni",
+      "birthDate": "1992-04-15",
+      "religion": "Kristen Protestan",
+      "education": "SLTA / Sederajat",
+      "occupation": "Petani / Pekebun",
+      "maritalStatus": "Kawin",
+      "addressDusun": "Dusun I Bawonahono",
+      "rtRw": "001/001",
+      "phone": "085277119922"
+    },
+    {
+      "nik": "1214086208950002",
+      "noKk": "1214080101150002",
+      "fullName": "Sarinah Zagoto",
+      "gender": "P",
+      "birthPlace": "Gomo",
+      "birthDate": "1995-08-22",
+      "religion": "Kristen Protestan",
+      "education": "Diploma / Sarjana",
+      "occupation": "Wiraswasta",
+      "maritalStatus": "Belum Kawin",
+      "addressDusun": "Dusun II Hilibadalu",
+      "rtRw": "002/002",
+      "phone": "085388223344"
+    },
+    {
+      "nik": "1214081005780001",
+      "noKk": "1214080101120005",
+      "fullName": "Ya'atulo Hia",
+      "gender": "L",
+      "birthPlace": "Lolosoni",
+      "birthDate": "1978-05-10",
+      "religion": "Kristen Protestan",
+      "education": "S1 Ilmu Pemerintahan",
+      "occupation": "Kepala Desa",
+      "maritalStatus": "Kawin",
+      "addressDusun": "Dusun I Bawonahono",
+      "rtRw": "001/001",
+      "phone": "081265001122"
+    },
+    {
+      "nik": "1214081406830002",
+      "noKk": "1214080101130007",
+      "fullName": "Faomakhoda Telambanua, S.AP",
+      "gender": "L",
+      "birthPlace": "Gomo",
+      "birthDate": "1983-06-14",
+      "religion": "Kristen Protestan",
+      "education": "S1 Administrasi Publik",
+      "occupation": "Perangkat Desa",
+      "maritalStatus": "Kawin",
+      "addressDusun": "Dusun II Hilibadalu",
+      "rtRw": "002/001",
+      "phone": "081375112233"
+    },
+    {
+      "nik": "1214082209890003",
+      "noKk": "1214080101140010",
+      "fullName": "Yulianus Lase",
+      "gender": "L",
+      "birthPlace": "Lolosoni",
+      "birthDate": "1989-09-22",
+      "religion": "Kristen Protestan",
+      "education": "SLTA / Sederajat",
+      "occupation": "Perangkat Desa",
+      "maritalStatus": "Kawin",
+      "addressDusun": "Dusun I Bawonahono",
+      "rtRw": "001/002",
+      "phone": "082199887766"
+    },
+    {
+      "nik": "1214080302010004",
+      "noKk": "1214080101150001",
+      "fullName": "Darman Hia",
+      "gender": "L",
+      "birthPlace": "Lolosoni",
+      "birthDate": "2001-02-03",
+      "religion": "Kristen Protestan",
+      "education": "SLTA / Sederajat",
+      "occupation": "Pelajar / Mahasiswa",
+      "maritalStatus": "Belum Kawin",
+      "addressDusun": "Dusun I Bawonahono",
+      "rtRw": "001/001",
+      "phone": "085211334455"
+    }
+  ],
+  "services": [
+    {
+      "id": "srv_domisili",
+      "code": "SKD",
+      "name": "Surat Keterangan Domisili",
+      "category": "Kependudukan",
+      "description": "Surat keterangan resmi yang menyatakan bahwa pemohon benar merupakan penduduk atau berdomisili sah di wilayah Desa Lolosoni.",
+      "processingDays": 1,
+      "responsibleRole": "perangkat",
+      "approvalRole": "kades",
+      "letterCodePrefix": "470",
+      "isActive": true,
+      "requirements": [
+        {
+          "id": "req_dom_1",
+          "name": "Foto / Pindai KTP Asli Pemohon",
+          "isMandatory": true,
+          "hint": "Format JPG/PNG/PDF maks 2MB"
+        },
+        {
+          "id": "req_dom_2",
+          "name": "Foto / Pindai Kartu Keluarga (KK)",
+          "isMandatory": true,
+          "hint": "Format JPG/PNG/PDF maks 2MB"
+        },
+        {
+          "id": "req_dom_3",
+          "name": "Pengantar Kepala Dusun / RT setempat",
+          "isMandatory": false,
+          "hint": "Jika ada (opsional)"
+        }
+      ]
+    },
+    {
+      "id": "srv_ktp_kk",
+      "code": "SP-KTP",
+      "name": "Surat Pengantar KTP / Kartu Keluarga",
+      "category": "Kependudukan",
+      "description": "Surat pengantar dari Pemerintah Desa Lolosoni ke Kantor Camat Gomo / Disdukcapil Nias Selatan untuk permohonan penerbitan KTP-el atau Kartu Keluarga baru/perubahan.",
+      "processingDays": 1,
+      "responsibleRole": "perangkat",
+      "approvalRole": "sekdes",
+      "letterCodePrefix": "474",
+      "isActive": true,
+      "requirements": [
+        {
+          "id": "req_ktp_1",
+          "name": "Foto / Scan Kartu Keluarga Lama",
+          "isMandatory": true,
+          "hint": "Format JPG/PNG/PDF"
+        },
+        {
+          "id": "req_ktp_2",
+          "name": "Akta Kelahiran / Ijazah Terakhir",
+          "isMandatory": true,
+          "hint": "Bukti data tanggal lahir"
+        },
+        {
+          "id": "req_ktp_3",
+          "name": "Pas Foto Terbaru Ukuran 3x4 (2 Lembar)",
+          "isMandatory": false,
+          "hint": "Latar biru/merah"
+        }
+      ]
+    },
+    {
+      "id": "srv_sku",
+      "code": "SKU",
+      "name": "Surat Keterangan Usaha (SKU)",
+      "category": "Perekonomian",
+      "description": "Surat keterangan resmi bagi warga Desa Lolosoni yang memiliki usaha mikro, kecil, atau perkebunan untuk keperluan administrasi bank, bantuan UMKM, atau legalitas usaha.",
+      "processingDays": 2,
+      "responsibleRole": "perangkat",
+      "approvalRole": "kades",
+      "letterCodePrefix": "510",
+      "isActive": true,
+      "requirements": [
+        {
+          "id": "req_sku_1",
+          "name": "KTP dan Kartu Keluarga Pemohon",
+          "isMandatory": true,
+          "hint": "Format JPG/PNG/PDF"
+        },
+        {
+          "id": "req_sku_2",
+          "name": "Foto Tempat / Kegiatan Usaha",
+          "isMandatory": true,
+          "hint": "Foto tampak depan atau lokasi usaha"
+        },
+        {
+          "id": "req_sku_3",
+          "name": "Pernyataan Jenis dan Lama Usaha",
+          "isMandatory": true,
+          "hint": "Keterangan tertulis dalam formulir"
+        }
+      ]
+    },
+    {
+      "id": "srv_sktm",
+      "code": "SKTM",
+      "name": "Surat Keterangan Tidak Mampu (SKTM)",
+      "category": "Sosial",
+      "description": "Surat keterangan bagi warga kurang mampu untuk keperluan beasiswa sekolah/kuliah, bantuan sosial pemerintah, atau keringanan biaya pengobatan.",
+      "processingDays": 1,
+      "responsibleRole": "perangkat",
+      "approvalRole": "kades",
+      "letterCodePrefix": "401",
+      "isActive": true,
+      "requirements": [
+        {
+          "id": "req_sktm_1",
+          "name": "Fotokopi KTP dan Kartu Keluarga",
+          "isMandatory": true,
+          "hint": "Format JPG/PNG/PDF"
+        },
+        {
+          "id": "req_sktm_2",
+          "name": "Surat Pernyataan Tidak Mampu Bermaterai",
+          "isMandatory": true,
+          "hint": "Format PDF/JPG"
+        },
+        {
+          "id": "req_sktm_3",
+          "name": "Foto Rumah Tinggal (Tampak Depan)",
+          "isMandatory": false,
+          "hint": "Dokumen pendukung verifikasi"
+        }
+      ]
+    },
+    {
+      "id": "srv_kelahiran",
+      "code": "SK-LAHIR",
+      "name": "Surat Keterangan Kelahiran",
+      "category": "Kependudukan",
+      "description": "Surat keterangan resmi atas kelahiran anak di wilayah Desa Lolosoni untuk pengurusan Akta Kelahiran di Disdukcapil Nias Selatan.",
+      "processingDays": 1,
+      "responsibleRole": "perangkat",
+      "approvalRole": "kades",
+      "letterCodePrefix": "474.1",
+      "isActive": true,
+      "requirements": [
+        {
+          "id": "req_lah_1",
+          "name": "Surat Keterangan Lahir dari Bidan/Dokter/Puskesmas Gomo",
+          "isMandatory": true,
+          "hint": "Format JPG/PDF"
+        },
+        {
+          "id": "req_lah_2",
+          "name": "KTP Kedua Orang Tua dan KK",
+          "isMandatory": true,
+          "hint": "Format berkas lengkap"
+        },
+        {
+          "id": "req_lah_3",
+          "name": "Buku Nikah / Akta Perkawinan Orang Tua",
+          "isMandatory": true,
+          "hint": "Format berkas sah"
+        }
+      ]
+    },
+    {
+      "id": "srv_kematian",
+      "code": "SK-MATI",
+      "name": "Surat Keterangan Kematian",
+      "category": "Kependudukan",
+      "description": "Surat keterangan pencatatan kematian warga desa untuk keperluan pembuatan Akta Kematian, waris, atau administrasi kependudukan keluarga.",
+      "processingDays": 1,
+      "responsibleRole": "perangkat",
+      "approvalRole": "kades",
+      "letterCodePrefix": "474.3",
+      "isActive": true,
+      "requirements": [
+        {
+          "id": "req_mat_1",
+          "name": "KTP dan Kartu Keluarga Almarhum/Almarhumah",
+          "isMandatory": true,
+          "hint": "Format JPG/PDF"
+        },
+        {
+          "id": "req_mat_2",
+          "name": "KTP Pelapor (Ahli Waris / Keluarga)",
+          "isMandatory": true,
+          "hint": "Format JPG/PDF"
+        },
+        {
+          "id": "req_mat_3",
+          "name": "Surat Kematian dari Medis (jika ada)",
+          "isMandatory": false,
+          "hint": "Opsional jika meninggal di faskes"
+        }
+      ]
+    },
+    {
+      "id": "srv_pengantar_nikah",
+      "code": "SP-NIKAH",
+      "name": "Surat Pengantar Nikah",
+      "category": "Pernikahan",
+      "description": "Surat pengantar permohonan pencatatan perkawinan bagi warga Desa Lolosoni ke Kantor Urusan Agama (KUA) atau Kantor Catatan Sipil Nias Selatan.",
+      "processingDays": 2,
+      "responsibleRole": "perangkat",
+      "approvalRole": "kades",
+      "letterCodePrefix": "474.2",
+      "isActive": true,
+      "requirements": [
+        {
+          "id": "req_nik_1",
+          "name": "Fotokopi KTP dan KK Calon Mempelai",
+          "isMandatory": true,
+          "hint": "Kedua calon mempelai"
+        },
+        {
+          "id": "req_nik_2",
+          "name": "Akta Kelahiran dan Ijazah Terakhir",
+          "isMandatory": true,
+          "hint": "Fotokopi legalisir"
+        },
+        {
+          "id": "req_nik_3",
+          "name": "Surat Persetujuan Orang Tua / Wali",
+          "isMandatory": true,
+          "hint": "Bermaterai cukup"
+        },
+        {
+          "id": "req_nik_4",
+          "name": "Pas Foto Berdampingan 4x6 Latar Biru",
+          "isMandatory": true,
+          "hint": "Format JPG/PNG"
+        }
+      ]
+    },
+    {
+      "id": "srv_belum_nikah",
+      "code": "SK-BN",
+      "name": "Surat Keterangan Belum Menikah",
+      "category": "Pernikahan",
+      "description": "Surat keterangan status lajang / belum pernah menikah untuk keperluan melamar pekerjaan, beasiswa, pendaftaran kedinasan/TNI/POLRI, atau persyaratan nikah.",
+      "processingDays": 1,
+      "responsibleRole": "perangkat",
+      "approvalRole": "sekdes",
+      "letterCodePrefix": "474.21",
+      "isActive": true,
+      "requirements": [
+        {
+          "id": "req_bn_1",
+          "name": "Fotokopi KTP dan KK Pemohon",
+          "isMandatory": true,
+          "hint": "Format JPG/PNG/PDF"
+        },
+        {
+          "id": "req_bn_2",
+          "name": "Surat Pernyataan Belum Pernah Menikah Bermaterai",
+          "isMandatory": true,
+          "hint": "Format PDF/JPG"
+        },
+        {
+          "id": "req_bn_3",
+          "name": "Surat Pengantar dari Kepala Dusun",
+          "isMandatory": false,
+          "hint": "Sebagai konfirmasi saksi dusun"
+        }
+      ]
+    },
+    {
+      "id": "srv_lainnya",
+      "code": "SK-LAIN",
+      "name": "Pengajuan Surat Keterangan Lainnya",
+      "category": "Umum",
+      "description": "Layanan terpadu bagi warga yang membutuhkan jenis surat keterangan khusus non-standar sesuai ketentuan kewenangan pemerintah desa.",
+      "processingDays": 2,
+      "responsibleRole": "perangkat",
+      "approvalRole": "kades",
+      "letterCodePrefix": "470.9",
+      "isActive": true,
+      "requirements": [
+        {
+          "id": "req_oth_1",
+          "name": "Fotokopi KTP dan Kartu Keluarga Pemohon",
+          "isMandatory": true,
+          "hint": "Format JPG/PNG/PDF"
+        },
+        {
+          "id": "req_oth_2",
+          "name": "Uraian Keperluan dan Dokumen Pendukung Terkait",
+          "isMandatory": true,
+          "hint": "Jelaskan tujuan surat dengan lengkap"
+        }
+      ]
+    }
+  ],
+  "applications": [
+    {
+      "id": "app_demo_01",
+      "registrationNumber": "REG-LSN-2026-0001",
+      "serviceId": "srv_domisili",
+      "serviceName": "Surat Keterangan Domisili",
+      "applicantUserId": "usr_warga_1",
+      "applicantNik": "1214081504920001",
+      "applicantName": "Bezisokhi Hia",
+      "applicantPhone": "085277119922",
+      "applicantDusun": "Dusun I Bawonahono",
+      "purpose": "Persyaratan pembukaan rekening Bank Sumut dan administrasi usaha pertanian",
+      "customData": {
+        "alamatTujuan": "Dusun I Bawonahono, Desa Lolosoni, Kec. Gomo",
+        "keperluan": "Administrasi Bank dan bantuan pertanian"
+      },
+      "status": "selesai",
+      "officerNotes": "Berkas lengkap dan telah diverifikasi sesuai data kependudukan Dusun I. Surat resmi telah diterbitkan.",
+      "documents": [
+        {
+          "id": "doc_01_ktp",
+          "requirementName": "Foto / Pindai KTP Asli Pemohon",
+          "fileName": "ktp_bezisokhi.jpg",
+          "fileSize": 420000,
+          "fileType": "image/jpeg",
+          "fileUrl": "/uploads/sample_ktp.jpg",
+          "uploadedAt": "2026-02-01T08:30:00.000Z"
+        },
+        {
+          "id": "doc_01_kk",
+          "requirementName": "Foto / Pindai Kartu Keluarga (KK)",
+          "fileName": "kk_bezisokhi.pdf",
+          "fileSize": 850000,
+          "fileType": "application/pdf",
+          "fileUrl": "/uploads/sample_kk.pdf",
+          "uploadedAt": "2026-02-01T08:31:00.000Z"
+        }
+      ],
+      "statusHistories": [
+        {
+          "id": "hist_01_1",
+          "toStatus": "diajukan",
+          "actorId": "usr_warga_1",
+          "actorName": "Bezisokhi Hia",
+          "actorRole": "masyarakat",
+          "notes": "Permohonan diajukan melalui portal online SIPADLO",
+          "createdAt": "2026-02-01T08:32:00.000Z"
+        },
+        {
+          "id": "hist_01_2",
+          "fromStatus": "diajukan",
+          "toStatus": "menunggu_pemeriksaan",
+          "actorId": "usr_perangkat",
+          "actorName": "Yulianus Lase",
+          "actorRole": "perangkat",
+          "notes": "Permohonan diterima dalam antrean pelayanan umum",
+          "createdAt": "2026-02-01T09:00:00.000Z"
+        },
+        {
+          "id": "hist_01_3",
+          "fromStatus": "menunggu_pemeriksaan",
+          "toStatus": "terverifikasi",
+          "actorId": "usr_perangkat",
+          "actorName": "Yulianus Lase",
+          "actorRole": "perangkat",
+          "notes": "Persyaratan KTP dan KK lengkap dan valid",
+          "createdAt": "2026-02-01T10:15:00.000Z"
+        },
+        {
+          "id": "hist_01_4",
+          "fromStatus": "terverifikasi",
+          "toStatus": "menunggu_persetujuan",
+          "actorId": "usr_perangkat",
+          "actorName": "Yulianus Lase",
+          "actorRole": "perangkat",
+          "notes": "Diteruskan ke Kepala Desa untuk persetujuan naskah surat",
+          "createdAt": "2026-02-01T10:20:00.000Z"
+        },
+        {
+          "id": "hist_01_5",
+          "fromStatus": "menunggu_persetujuan",
+          "toStatus": "disetujui",
+          "actorId": "usr_kades",
+          "actorName": "Ya'atulo Hia",
+          "actorRole": "kades",
+          "notes": "Disetujui untuk diterbitkan surat resmi",
+          "createdAt": "2026-02-01T13:00:00.000Z"
+        },
+        {
+          "id": "hist_01_6",
+          "fromStatus": "disetujui",
+          "toStatus": "selesai",
+          "actorId": "usr_sekdes",
+          "actorName": "Faomakhoda Telambanua, S.AP",
+          "actorRole": "sekdes",
+          "notes": "Surat resmi telah diterbitkan dengan nomor 470/012/D-LSN/GM/2026",
+          "createdAt": "2026-02-01T14:30:00.000Z"
+        }
+      ],
+      "letterId": "let_demo_01",
+      "createdAt": "2026-02-01T08:32:00.000Z",
+      "updatedAt": "2026-02-01T14:30:00.000Z"
+    },
+    {
+      "id": "app_demo_02",
+      "registrationNumber": "REG-LSN-2026-0002",
+      "serviceId": "srv_sku",
+      "serviceName": "Surat Keterangan Usaha (SKU)",
+      "applicantUserId": "usr_warga_2",
+      "applicantNik": "1214086208950002",
+      "applicantName": "Sarinah Zagoto",
+      "applicantPhone": "085388223344",
+      "applicantDusun": "Dusun II Hilibadalu",
+      "purpose": "Pengajuan modal usaha KUR BRI Unit Gomo dan izin toko kelontong di Dusun II",
+      "customData": {
+        "namaUsaha": "Toko Berkah Zagoto",
+        "jenisUsaha": "Toko Kelontong dan Sembako",
+        "tahunMulai": "2021",
+        "lokasiUsaha": "Dusun II Hilibadalu, Desa Lolosoni"
+      },
+      "status": "menunggu_persetujuan",
+      "officerNotes": "Pemeriksaan lapangan oleh Kaur Pelayanan sesuai dengan usaha fisik pemohon di Dusun II.",
+      "documents": [
+        {
+          "id": "doc_02_ktp",
+          "requirementName": "KTP dan Kartu Keluarga Pemohon",
+          "fileName": "ktp_sarinah.jpg",
+          "fileSize": 512000,
+          "fileType": "image/jpeg",
+          "fileUrl": "/uploads/sample_ktp_2.jpg",
+          "uploadedAt": "2026-02-03T09:00:00.000Z"
+        },
+        {
+          "id": "doc_02_foto_usaha",
+          "requirementName": "Foto Tempat / Kegiatan Usaha",
+          "fileName": "toko_kelontong.jpg",
+          "fileSize": 920000,
+          "fileType": "image/jpeg",
+          "fileUrl": "/uploads/sample_usaha.jpg",
+          "uploadedAt": "2026-02-03T09:02:00.000Z"
+        }
+      ],
+      "statusHistories": [
+        {
+          "id": "hist_02_1",
+          "toStatus": "diajukan",
+          "actorId": "usr_warga_2",
+          "actorName": "Sarinah Zagoto",
+          "actorRole": "masyarakat",
+          "notes": "Permohonan SKU diajukan secara online",
+          "createdAt": "2026-02-03T09:05:00.000Z"
+        },
+        {
+          "id": "hist_02_2",
+          "fromStatus": "diajukan",
+          "toStatus": "menunggu_pemeriksaan",
+          "actorId": "usr_perangkat",
+          "actorName": "Yulianus Lase",
+          "actorRole": "perangkat",
+          "notes": "Antrean pemeriksaan dokumen oleh Kaur Pelayanan",
+          "createdAt": "2026-02-03T09:30:00.000Z"
+        },
+        {
+          "id": "hist_02_3",
+          "fromStatus": "menunggu_pemeriksaan",
+          "toStatus": "terverifikasi",
+          "actorId": "usr_sekdes",
+          "actorName": "Faomakhoda Telambanua, S.AP",
+          "actorRole": "sekdes",
+          "notes": "Dokumen dan lokasi usaha terverifikasi sah",
+          "createdAt": "2026-02-03T11:00:00.000Z"
+        },
+        {
+          "id": "hist_02_4",
+          "fromStatus": "terverifikasi",
+          "toStatus": "menunggu_persetujuan",
+          "actorId": "usr_sekdes",
+          "actorName": "Faomakhoda Telambanua, S.AP",
+          "actorRole": "sekdes",
+          "notes": "Menunggu persetujuan penandatanganan Kepala Desa Lolosoni",
+          "createdAt": "2026-02-03T11:05:00.000Z"
+        }
+      ],
+      "createdAt": "2026-02-03T09:05:00.000Z",
+      "updatedAt": "2026-02-03T11:05:00.000Z"
+    },
+    {
+      "id": "app_demo_03",
+      "registrationNumber": "REG-LSN-2026-0003",
+      "serviceId": "srv_sktm",
+      "serviceName": "Surat Keterangan Tidak Mampu (SKTM)",
+      "applicantUserId": "usr_warga_1",
+      "applicantNik": "1214081504920001",
+      "applicantName": "Bezisokhi Hia",
+      "applicantPhone": "085277119922",
+      "applicantDusun": "Dusun I Bawonahono",
+      "purpose": "Permohonan beasiswa KIP Kuliah anak atas nama Darman Hia di Universitas Negeri Medan",
+      "customData": {
+        "namaAnak": "Darman Hia",
+        "pendidikanAnak": "Calon Mahasiswa",
+        "pekerjaanAyah": "Petani / Pekebun",
+        "penghasilanRataRata": "Rp 800.000 / bulan"
+      },
+      "status": "menunggu_pemeriksaan",
+      "officerNotes": "Permohonan baru masuk, menunggu pengecekan dokumen pendukung.",
+      "documents": [
+        {
+          "id": "doc_03_ktp",
+          "requirementName": "Fotokopi KTP dan Kartu Keluarga",
+          "fileName": "ktp_kk_hia.pdf",
+          "fileSize": 670000,
+          "fileType": "application/pdf",
+          "fileUrl": "/uploads/sample_kk.pdf",
+          "uploadedAt": "2026-02-05T07:20:00.000Z"
+        }
+      ],
+      "statusHistories": [
+        {
+          "id": "hist_03_1",
+          "toStatus": "diajukan",
+          "actorId": "usr_warga_1",
+          "actorName": "Bezisokhi Hia",
+          "actorRole": "masyarakat",
+          "notes": "Permohonan SKTM untuk beasiswa anak diajukan",
+          "createdAt": "2026-02-05T07:25:00.000Z"
+        },
+        {
+          "id": "hist_03_2",
+          "fromStatus": "diajukan",
+          "toStatus": "menunggu_pemeriksaan",
+          "actorId": "usr_perangkat",
+          "actorName": "Yulianus Lase",
+          "actorRole": "perangkat",
+          "notes": "Menunggu pemeriksaan berkas dan surat pernyataan tidak mampu",
+          "createdAt": "2026-02-05T08:00:00.000Z"
+        }
+      ],
+      "createdAt": "2026-02-05T07:25:00.000Z",
+      "updatedAt": "2026-02-05T08:00:00.000Z"
+    }
+  ],
+  "letters": [
+    {
+      "id": "let_demo_01",
+      "letterNumber": "470/012/D-LSN/GM/2026",
+      "applicationId": "app_demo_01",
+      "registrationNumber": "REG-LSN-2026-0001",
+      "serviceId": "srv_domisili",
+      "serviceName": "Surat Keterangan Domisili",
+      "recipientNik": "1214081504920001",
+      "recipientName": "Bezisokhi Hia",
+      "recipientAddress": "Dusun I Bawonahono, Desa Lolosoni, Kecamatan Gomo, Kabupaten Nias Selatan",
+      "recipientBirth": "Lolosoni, 15 April 1992",
+      "recipientOccupation": "Petani / Pekebun",
+      "purpose": "Persyaratan pembukaan rekening Bank Sumut dan administrasi usaha pertanian",
+      "letterDate": "2026-02-01",
+      "signatoryName": "Ya'atulo Hia",
+      "signatoryRole": "Kepala Desa Lolosoni",
+      "qrVerificationCode": "SIPADLO-VAL-2026-470012-0001",
+      "contentBody": "Yang bertanda tangan di bawah ini Kepala Desa Lolosoni, Kecamatan Gomo, Kabupaten Nias Selatan, menerangkan dengan sebenarnya bahwa:\n\nNama: Bezisokhi Hia\nNIK: 1214081504920001\nTempat/Tgl Lahir: Lolosoni, 15 April 1992\nJenis Kelamin: Laki-laki\nPekerjaan: Petani / Pekebun\nAgama: Kristen Protestan\nAlamat: Dusun I Bawonahono, Desa Lolosoni, Kec. Gomo, Kab. Nias Selatan\n\nAdalah benar yang bersangkutan bertempat tinggal dan berdomisili sah di Dusun I Bawonahono Desa Lolosoni Kecamatan Gomo Kabupaten Nias Selatan.\n\nDemikian surat keterangan ini diperbuat dengan sebenarnya untuk dapat dipergunakan sebagaimana mestinya.",
+      "isPublished": true,
+      "createdAt": "2026-02-01T14:30:00.000Z"
+    }
+  ],
+  "notifications": [
+    {
+      "id": "notif_01",
+      "userId": "usr_warga_1",
+      "title": "Surat Keterangan Domisili Selesai",
+      "message": "Permohonan Anda No. REG-LSN-2026-0001 telah selesai diproses. Surat resmi No. 470/012/D-LSN/GM/2026 dapat diunduh/dicetak.",
+      "linkUrl": "/dashboard/letters/let_demo_01",
+      "isRead": false,
+      "createdAt": "2026-02-01T14:30:00.000Z"
+    },
+    {
+      "id": "notif_02",
+      "userId": "usr_kades",
+      "title": "Permohonan Menunggu Persetujuan",
+      "message": "Permohonan SKU No. REG-LSN-2026-0002 atas nama Sarinah Zagoto telah diverifikasi Sekdes dan menunggu persetujuan Anda.",
+      "linkUrl": "/dashboard/applications/app_demo_02",
+      "isRead": false,
+      "createdAt": "2026-02-03T11:05:00.000Z"
+    },
+    {
+      "id": "notif_03",
+      "userId": "usr_perangkat",
+      "title": "Permohonan Baru Masuk",
+      "message": "Permohonan SKTM No. REG-LSN-2026-0003 atas nama Bezisokhi Hia menunggu pemeriksaan dokumen.",
+      "linkUrl": "/dashboard/applications/app_demo_03",
+      "isRead": false,
+      "createdAt": "2026-02-05T08:00:00.000Z"
+    }
+  ],
+  "activityLogs": [
+    {
+      "id": "act_01",
+      "userId": "usr_kades",
+      "userName": "Ya'atulo Hia",
+      "role": "kades",
+      "action": "APPROVE_LETTER",
+      "details": "Menyetujui penerbitan Surat Keterangan Domisili No. 470/012/D-LSN/GM/2026 untuk Bezisokhi Hia",
+      "createdAt": "2026-02-01T13:00:00.000Z"
+    },
+    {
+      "id": "act_02",
+      "userId": "usr_sekdes",
+      "userName": "Faomakhoda Telambanua, S.AP",
+      "role": "sekdes",
+      "action": "VERIFY_APPLICATION",
+      "details": "Memverifikasi berkas permohonan SKU Sarinah Zagoto (REG-LSN-2026-0002)",
+      "createdAt": "2026-02-03T11:00:00.000Z"
+    },
+    {
+      "id": "act_03",
+      "userId": "usr_warga_1",
+      "userName": "Bezisokhi Hia",
+      "role": "masyarakat",
+      "action": "SUBMIT_APPLICATION",
+      "details": "Mengajukan permohonan SKTM untuk beasiswa anak (REG-LSN-2026-0003)",
+      "createdAt": "2026-02-05T07:25:00.000Z"
+    }
+  ]
+}
